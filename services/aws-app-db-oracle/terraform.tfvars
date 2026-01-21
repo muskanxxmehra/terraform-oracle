@@ -55,6 +55,9 @@ db_service        = "XEPDB1"       # Oracle XE pluggable database service
 # Database credentials
 db_user = "appuser"
 
+# Add this line (uncomment and set your password)
+db_password = "Azalio@123"
+
 # REQUIRED: Set in Terraform Cloud or via environment variable
 # db_password = "YourSecurePassword123"
 # 
