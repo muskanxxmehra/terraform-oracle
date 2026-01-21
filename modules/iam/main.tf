@@ -3,7 +3,7 @@
 ################################################################################
 
 resource "aws_iam_role" "ec2_role" {
-  name = "${var.environment}-ec2-role"
+  name = "${var.environment}-azalio-role"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
