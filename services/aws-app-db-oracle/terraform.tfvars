@@ -25,7 +25,7 @@ public_subnet_cidr = "10.0.1.0/24"
 # Security Settings
 #------------------------------------------------------------------------------
 # REQUIRED: Your SSH key pair name (must exist in AWS)
-key_name = "your-key-pair-name"
+key_name = "my-key-pair"
 
 # Restrict SSH access to your IP (recommended)
 ssh_allowed_cidr = ["0.0.0.0/0"]  # Change to your IP: ["x.x.x.x/32"]
